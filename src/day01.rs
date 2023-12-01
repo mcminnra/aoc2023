@@ -3,7 +3,7 @@ use std::fs;
 
 fn main() {
     //=== Puzzle 1
-    let p1_input = fs::read_to_string("./day1_input.txt").expect("Error reading input");
+    let p1_input = fs::read_to_string("inputs/day01.txt").expect("Error reading input");
 
     let p1_values = p1_input.split("\n").collect::<Vec<_>>();
 
@@ -43,7 +43,7 @@ fn main() {
     println!("Puzzle 1 Sum: {}", p1_sum);
 
     //=== Puzzle 2
-    let p2_input = fs::read_to_string("./day1_input.txt").expect("Error reading input");
+    let p2_input = fs::read_to_string("inputs/day01.txt").expect("Error reading input");
 
     let p2_values = p2_input.split("\n").collect::<Vec<_>>();
 
